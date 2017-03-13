@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<merger version="3"><dataSet config="main"><source path="D:\AndroidProject\OpencvDemo\openCVLibrary249\src\androidTest\shaders"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="F:\OpencvDemo\openCVLibrary249\src\androidTest\shaders"/></dataSet></merger>
->>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
+<merger version="3"><dataSet config="main"><source path="D:\OpencvDemo\openCVLibrary249\src\androidTest\shaders"/></dataSet></merger>

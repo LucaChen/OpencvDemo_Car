@@ -1,14 +1,10 @@
 [
     {
-<<<<<<< HEAD
         "outputFile": "D:\\OpencvDemo\\openCVLibrary249\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
         "map": []
     },
     {
         "outputFile": "D:\\AndroidProject\\OpencvDemo\\openCVLibrary249\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
-=======
-        "outputFile": "F:\\OpencvDemo\\openCVLibrary249\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
->>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
         "map": []
     }
 ]

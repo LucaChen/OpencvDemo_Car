@@ -1,21 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-<<<<<<< HEAD
     compileSdkVersion 22
     buildToolsVersion '23.0.3'
     defaultConfig {
         applicationId "com.example.lucas.opencvdemo"
         minSdkVersion 19
         targetSdkVersion 22
-=======
-    compileSdkVersion 23
-    buildToolsVersion '23.0.3'
-    defaultConfig {
-        applicationId "com.example.lucas.opencvdemo"
-        minSdkVersion 22
-        targetSdkVersion 23
->>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
         versionCode 1
         versionName "1.0"
     }
@@ -32,12 +23,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-<<<<<<< HEAD
     compile 'com.android.support:appcompat-v7:22.2.1'
-=======
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.android.support:recyclerview-v7:23.1.1'
->>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
     compile project(':openCVLibrary249')
 }

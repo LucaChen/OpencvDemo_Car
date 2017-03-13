@@ -3,23 +3,10 @@ package com.example.lucas.opencvdemo;
 import android.app.TabActivity;
 import android.content.Context;
 import android.content.Intent;
-<<<<<<< HEAD
 import android.os.Bundle;
 import android.widget.TabHost.OnTabChangeListener;
 import android.widget.Toast;
 
-=======
-import android.content.SharedPreferences;
-import android.os.Bundle;
-import android.preference.ListPreference;
-import android.preference.Preference;
-import android.preference.PreferenceFragment;
-import android.widget.TabHost.OnTabChangeListener;
-import android.widget.Toast;
-
-import java.util.Map;
-
->>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
 @SuppressWarnings("deprecation")
 public class Bluetooth extends TabActivity {
     /** Called when the activity is first created. */
@@ -40,21 +27,14 @@ public class Bluetooth extends TabActivity {
         super.onCreate(savedInstanceState);        
         
         mContext = this;        
-<<<<<<< HEAD
     	setContentView(R.layout.main);
         //实例化
 		this.
     	mTabHost = (AnimationTabHost) getTabHost();
-=======
-    	setContentView(com.example.lucas.opencvdemo.R.layout.main);
-        //实例化
-    	mTabHost = (AnimationTabHost) getTabHost();         
->>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
         mTabHost.addTab(mTabHost.newTabSpec("Tab1")
         		.setIndicator("设备列表",getResources().getDrawable(android.R.drawable.ic_menu_add))
         		.setContent(new Intent(mContext, deviceActivity.class)));
         mTabHost.addTab(mTabHost.newTabSpec("Tab2").
-<<<<<<< HEAD
         		setIndicator("图像",getResources().getDrawable(android.R.drawable.ic_menu_add))
         		.setContent(new Intent(mContext, chatActivity.class)));
         mTabHost.setOnTabChangedListener(new OnTabChangeListener(){
@@ -72,81 +52,6 @@ public class Bluetooth extends TabActivity {
 		  Toast.makeText(mContext, "address:", Toast.LENGTH_SHORT).show();
 
 	    }
-=======
-        		setIndicator("对话列表",getResources().getDrawable(android.R.drawable.ic_menu_add))
-        		.setContent(new Intent(mContext, chatActivity.class)));
-        mTabHost.setOnTabChangedListener(new OnTabChangeListener(){
-        	public void onTabChanged(String tabId) {
-        		// TODO Auto-generated method stub    
-        		if(tabId.equals("Tab1"))
-        		{        			
-        		}
-        	}         
-        });
-        mTabHost.setCurrentTab(0);
-    }
-	public void onActivityResult(int requestCode, int resultCode, Intent data) {
-
-		Toast.makeText(mContext, "address:", Toast.LENGTH_SHORT).show();
-
-	}
-	public static class SettingsFragment extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener {
-		@Override
-		public void onCreate(Bundle savedInstanceState) {
-			super.onCreate(savedInstanceState);
-			addPreferencesFromResource(R.xml.settings);
-			// Load the preferences from an XML resource
-		}
-
-		@Override
-		public void onResume() {
-			super.onResume();
-
-			// Set up initial values for all list preferences
-			Map<String, ?> sharedPreferencesMap = getPreferenceScreen().getSharedPreferences().getAll();
-			Preference pref;
-			ListPreference listPref;
-			for (Map.Entry<String, ?> entry : sharedPreferencesMap.entrySet()) {
-				pref = findPreference(entry.getKey());
-				if (pref instanceof ListPreference) {
-					listPref = (ListPreference) pref;
-					pref.setSummary(listPref.getEntry());
-				}
-			}
-
-			// Set up a listener whenever a key changes
-			getPreferenceScreen().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
-		}
-
-		@Override
-		public void onPause() {
-			super.onPause();
-			// Set up a listener whenever a key changes
-			getPreferenceScreen().getSharedPreferences().unregisterOnSharedPreferenceChangeListener(this);
-		}
-
-		@Override
-		public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
-			Preference pref = findPreference(key);
-
-			if (pref instanceof ListPreference) {
-				ListPreference listPref = (ListPreference) pref;
-				pref.setSummary(listPref.getEntry());
-			}
-
-			getActivity().setResult(-1);
-		}
-		public class SiriListItem {
-			String message;
-			boolean isSiri;
-
-			public SiriListItem(String msg, boolean siri) {
-				message = msg;
-				isSiri = siri;
-			}
-		}
-	}
->>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
     @Override
     protected void onDestroy() {
         /* unbind from the service */

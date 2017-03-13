@@ -72,13 +72,10 @@ public class JavaCameraView extends CameraBridgeViewBase implements PreviewCallb
                 Log.d(TAG, "Trying to open camera with old open()");
                 try {
                     mCamera = Camera.open();
-<<<<<<< HEAD
 //                    Camera.Parameters mParameters;
 //                    mParameters = mCamera.getParameters();
 //                    mParameters.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
 //                    mCamera.setParameters(mParameters);
-=======
->>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
                 }
                 catch (Exception e){
                     Log.e(TAG, "Camera is not available (in use or does not exist): " + e.getLocalizedMessage());
