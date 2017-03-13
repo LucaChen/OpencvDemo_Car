@@ -3,8 +3,14 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+<<<<<<< HEAD
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+=======
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="E:\android\gradle\gradle-2.10" />
+>>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -12,7 +18,17 @@
             <option value="$PROJECT_DIR$/openCVLibrary249" />
           </set>
         </option>
+<<<<<<< HEAD
         <option name="resolveModulePerSourceSet" value="false" />
+=======
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/openCVLibrary249" />
+          </set>
+        </option>
+>>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
       </GradleProjectSettings>
     </option>
   </component>

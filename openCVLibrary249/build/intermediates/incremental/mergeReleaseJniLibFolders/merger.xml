@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="D:\AndroidProject\OpencvDemo\openCVLibrary249\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="D:\AndroidProject\OpencvDemo\openCVLibrary249\src\release\jniLibs"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="F:\OpencvDemo\openCVLibrary249\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="F:\OpencvDemo\openCVLibrary249\src\release\jniLibs"/></dataSet></merger>
+>>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17

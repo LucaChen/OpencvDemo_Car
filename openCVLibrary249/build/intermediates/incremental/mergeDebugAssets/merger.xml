@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="D:\AndroidProject\OpencvDemo\openCVLibrary249\src\main\assets"/><source path="D:\AndroidProject\OpencvDemo\openCVLibrary249\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\AndroidProject\OpencvDemo\openCVLibrary249\src\debug\assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="F:\OpencvDemo\openCVLibrary249\src\main\assets"/><source path="F:\OpencvDemo\openCVLibrary249\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\OpencvDemo\openCVLibrary249\src\debug\assets"/></dataSet></merger>
+>>>>>>> 8ab44e0368d1f8563e12dd8e76f44e6aeee2ef17
